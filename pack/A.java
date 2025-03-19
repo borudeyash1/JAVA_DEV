@@ -75,4 +75,42 @@ public class A {
                     
                     }
                     
-                                                  }
+                    
+        public void cube(){
+          Scanner sc = new Scanner(System.in);
+              
+        System.out.println("Enter the length of side of cude: ");
+        
+            double side = sc.nextDouble();
+            double SAC = 6*(side*side);
+            System.out.println("The surface area of the cube is: " +SAC);
+            double  VolC = side * side * side;
+            System.out.println("The surface area of the cube is: " +VolC);
+            
+        }
+        
+        public void cuboid(){
+          Scanner sc = new Scanner(System.in);
+              
+        System.out.println("Enter the length of cudoid: ");
+        
+            double LOC = sc.nextDouble();
+             System.out.println("Enter the breadth of cudoid: ");
+        
+            double BOC = sc.nextDouble();
+             System.out.println("Enter the height of cudoid: ");
+        
+            double HOC = sc.nextDouble();
+            double SACU = 2*((LOC*BOC)+(BOC*HOC)+(HOC*LOC));
+            double  VolCU = LOC * BOC * HOC;
+            System.out.println("The surface area of the cube is: " +SACU);
+            System.out.println("The surface area of the cube is: " +VolCU);
+            
+        }
+        
+                    
+                    
+                    
+                    
+                    
+      }

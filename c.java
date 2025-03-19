@@ -11,10 +11,14 @@ public class c {
         obj.msg();
 
         obj.msg2();
+        
+        obj.msg3();
 
         obj.circle();
 
         obj.triangle();
+        obj.cube();
+        obj.cuboid();
 
         //show result for some time
 
